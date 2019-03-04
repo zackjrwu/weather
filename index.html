@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .weather_pic {
+            height: 40px;
+            width: 40px;
+        }
+
+        tbody tr:nth-child(3n-2) {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="shopping-cart">
+                    <table class="table">
+                        <thead>
+                            <th>日期</th>
+                            <th>城市</th>
+                            <th>天氣</th>
+                            <th>最高溫</th>
+                            <th>最低溫</th>
+                            <th>圖示</th>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./ajax.js"></script>
+</body>
+
+</html>
